@@ -1,0 +1,56 @@
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .container{
+    margin: auto;
+    width: 100%;
+  }
+  .logo {
+    max-width: 7rem;
+  }
+  .dropdown-button {
+    height: 2rem;
+    font-size: 0.7rem;
+  }
+  .main-content {
+    margin: auto;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    margin: 0;
+    gap: 1.5rem 1.2rem;
+    /* border: 1px solid black; */
+  }
+  .list-dropdown{
+    font-size: 0.6rem;
+  }
+  .content-frame {
+    width: 95%;
+    padding: 0.7rem;
+    border-radius: 2%;
+    background: #fff;
+    box-shadow: 4px 6px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    
+  }
+  #td{
+    margin-bottom: 50px;
+    margin-top: 1px;
+  }
+  #ttd {
+
+    font-size: 1.3rem;
+   
+    }
+    .header{
+      margin: 30px auto;
+    }
+    #td{
+      padding-right: 10px;
+      margin-bottom: 30px;
+      transition: 0.3s ease;
+      margin-top: 10px;
+    }
+}
+
+ 

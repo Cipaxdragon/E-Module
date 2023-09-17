@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+:root {
+  --button-primary: #e89a46;
+  --button-secondary: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), #ff992a;
+  --bt-border: #c51605;
+  --bt-primary: #000000;
+  --bt-secondary: #ffffff;
+  --button-list: #ffffff;
+}
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 0.8rem;
+  font-family: Poppins;
+  font-size: 1rem;
+  background: url(assets/WhatsApp\ Image\ 2023-09-16\ at\ 17.36.40.jpeg);
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background: lightgrey 50% transparent;
+}
+
+.header {
+  max-width: 65rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  gap: 1rem;
+}
+#td{
+  padding-right: 168px;
+  margin-bottom: 30px;
+  transition: 0.3s ease;
+  margin-top: 100px;
+}
+#td:hover{
+  transform: scale(1.010); /* Mengubah skala elemen saat hover */
+  cursor: pointer; 
+}
+
+#ttd {
+  background-color: var(--button-primary);
+  width: 28rem;
+  height: 3rem;
+  font-size: 1.8rem;
+  padding: 1rem auto;
+  font-weight: 600;
+  letter-spacing: 0.64px;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: 7px solid var(--bt-border);
+  cursor: pointer;
+  transition: var(--button-primary) 0.3s ease;
+  font-family: sacramento;
+  }
+
+
+h1 {
+  color: var(--bt-primary);
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 10rem;
+  border-radius: 50%;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  /* border: 1px solid black; */
+  margin: 0 10%;
+  /* flex-wrap: nowrap; */
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  flex-direction: column;
+  margin: 0 ;
+  gap: 1.5rem 1.2rem;
+  /* border: 1px solid black; */
+}
+
+.dropdown-button {
+  background-color: var(--button-primary);
+  width: 100%;
+  height: 4rem;
+  font-size: 1.8rem;
+  padding: 1rem auto;
+  font-weight: 600;
+  letter-spacing: 0.64px;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: 7px solid var(--bt-border);
+  cursor: pointer;
+  transition:  0.3s ease;
+}
+.dropdown-button:hover {
+  transform: scale(1.050); /* Mengubah skala elemen saat hover */
+    cursor: pointer; 
+}
+
+
+/* .dropdown-button.active {
+  background-color: var(--button-secondary); */
+/* } */
+.dropdown-content {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+
+}
+
+.content-frame {
+  width: 95%;
+  padding: 0.7rem;
+  border-radius: 2%;
+  background: #fff;
+  box-shadow: 4px 6px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  
+}
+.list-dropdown {
+  background-color: var(--button-list);
+  font-weight: 500;
+  text-align: start;
+  width: 95%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  padding: 0.8rem;
+  
+}
+.list-dropdown {
+  /* display: none; */
+  padding: 0.8rem;
+  list-style: none;
+}
+
+.btn-frame {
+  padding: 0;
+  
+}
+
+.clicked-button {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%),
+    #FF992A;
+  color: var(--bt-secondary);
+}
+
+.list-dropdown a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}

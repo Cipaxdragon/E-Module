@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-modul</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css" />
+    <link rel="shortcut icon" href="assets/emodule.svg" type="image/x-icon">
+  </head>
+  <body>
+    <div class="header">
+      <img class="logo" src="assets/Logo Emas.png" alt="logo" />
+      <h1>E-Modul Perencanaan Karir SMP/MTS</h1>
+    </div>
+
+  <div class="container">
+    <div class="main-content">
+      <div id="1" class="btn-frame">
+        <button class="dropdown-button" onclick="toggleDropdown('profil')">
+        PROFIL
+      </button>
+        <div class="dropdown-content" id="profil">
+          <img class="content-frame" src="assets/2.png" alt="Profil" />
+        </div>
+      </div>
+      <div id="2" class="btn-frame">
+        <button class="dropdown-button" onclick="toggleDropdown('prakata')">
+          PRAKATA
+          
+        </button>
+        <div class="dropdown-content" id="prakata">
+          <img src="assets/3.png" alt="Prakata" class="content-frame" />
+        </div>
+      </div>
+      <div id="3" class="btn-frame">
+        <button class="dropdown-button" onclick="toggleDropdown('daftar-isi')">
+          DAFTAR ISI
+        </button>
+        <div class="dropdown-content" id="daftar-isi">
+          <img class="content-frame" src="assets/4.png" alt="Daftar-isi" />
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div id="4"class="btn-frame">
+        <button class="dropdown-button" onclick="toggleDropdown('modul')">
+          MODUL
+        </button>
+        <div  class="dropdown-content" id="modul">
+          <button class="list-dropdown" onclick="toggleList('topik-1')"  >
+            <svg width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="bx:right-arrow-circle">
+                <path id="Vector"
+                  d="M19.633 2.57275C10.9025 2.5743 3.7997 9.49021 3.7997 17.991C3.7997 26.4917 10.9025 33.4076 19.6346 33.4076C28.3635 33.4076 35.4664 26.4917 35.4679 17.991C35.4679 9.49021 28.3651 2.5743 19.633 2.57275ZM19.6346 30.3243C12.6489 30.3243 6.96636 24.7913 6.96636 17.991C6.96636 11.1907 12.6489 5.65763 19.633 5.65609C26.6187 5.65763 32.3013 11.1907 32.3013 17.991C32.2997 24.7913 26.6171 30.3243 19.6346 30.3243Z"
+                  fill="#952323" />
+                <path id="Vector_2" d="M19.6346 16.449H13.3013V19.5323H19.6346V24.1665L25.9759 17.9922L19.6346 11.8193V16.449Z"
+                  fill="#952323" />
+              </g>
+            </svg>  
+            <a href="modul/topik1.html">
+              A. Topik I Pemahaman Diri
+            </a>
+          </button>
+          <button class="list-dropdown" onclick="toggleList('topik-2')">
+            <svg width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="bx:right-arrow-circle">
+                <path id="Vector"
+                  d="M19.633 2.57275C10.9025 2.5743 3.7997 9.49021 3.7997 17.991C3.7997 26.4917 10.9025 33.4076 19.6346 33.4076C28.3635 33.4076 35.4664 26.4917 35.4679 17.991C35.4679 9.49021 28.3651 2.5743 19.633 2.57275ZM19.6346 30.3243C12.6489 30.3243 6.96636 24.7913 6.96636 17.991C6.96636 11.1907 12.6489 5.65763 19.633 5.65609C26.6187 5.65763 32.3013 11.1907 32.3013 17.991C32.2997 24.7913 26.6171 30.3243 19.6346 30.3243Z"
+                  fill="#952323" />
+                <path id="Vector_2" d="M19.6346 16.449H13.3013V19.5323H19.6346V24.1665L25.9759 17.9922L19.6346 11.8193V16.449Z"
+                  fill="#952323" />
+              </g>
+            </svg>
+            <a href="modul/topik2.html">
+              B. Topik II Sikap dan Mengenai Lingkungan Keluarga
+            </a>
+          </button>
+          <button class="list-dropdown" onclick="toggleList('topik-3')">
+            <svg width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="bx:right-arrow-circle">
+                <path id="Vector"
+                  d="M19.633 2.57275C10.9025 2.5743 3.7997 9.49021 3.7997 17.991C3.7997 26.4917 10.9025 33.4076 19.6346 33.4076C28.3635 33.4076 35.4664 26.4917 35.4679 17.991C35.4679 9.49021 28.3651 2.5743 19.633 2.57275ZM19.6346 30.3243C12.6489 30.3243 6.96636 24.7913 6.96636 17.991C6.96636 11.1907 12.6489 5.65763 19.633 5.65609C26.6187 5.65763 32.3013 11.1907 32.3013 17.991C32.2997 24.7913 26.6171 30.3243 19.6346 30.3243Z"
+                  fill="#952323" />
+                <path id="Vector_2" d="M19.6346 16.449H13.3013V19.5323H19.6346V24.1665L25.9759 17.9922L19.6346 11.8193V16.449Z"
+                  fill="#952323" />
+              </g>
+            </svg>
+            <a href="modul/topik3.html">
+              C. Topik III Keterampilan, Informasi karir
+            </a>
+          </button>
+          <div class="dropdown-content" id="topik-1">
+          </div>
+          <div class="dropdown-content" id="topik-1">
+          </div>
+          <div class="dropdown-content" id="topik-1">
+          </div>
+        </div>
+      </div>
+      <div id="5" class="btn-frame">
+        <button class="dropdown-button" onclick="toggleDropdown('layanan-bimbingan')">
+          LAYANAN BIMBINGAN
+        </button>
+        <div class="dropdown-content" id="layanan-bimbingan">
+          <button class="list-dropdown" onclick="toggleList('layanan-1')">
+            <svg width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="bx:right-arrow-circle">
+                <path id="Vector"
+                  d="M19.633 2.57275C10.9025 2.5743 3.7997 9.49021 3.7997 17.991C3.7997 26.4917 10.9025 33.4076 19.6346 33.4076C28.3635 33.4076 35.4664 26.4917 35.4679 17.991C35.4679 9.49021 28.3651 2.5743 19.633 2.57275ZM19.6346 30.3243C12.6489 30.3243 6.96636 24.7913 6.96636 17.991C6.96636 11.1907 12.6489 5.65763 19.633 5.65609C26.6187 5.65763 32.3013 11.1907 32.3013 17.991C32.2997 24.7913 26.6171 30.3243 19.6346 30.3243Z"
+                  fill="#952323" />
+                <path id="Vector_2" d="M19.6346 16.449H13.3013V19.5323H19.6346V24.1665L25.9759 17.9922L19.6346 11.8193V16.449Z"
+                  fill="#952323" />
+              </g>
+            </svg>
+            <a href="modul/topik4.html">
+              A. Topik I
+            </a>
+          </button>
+          <button class="list-dropdown" onclick="toggleList('layanan-2')">
+            <svg width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="bx:right-arrow-circle">
+                <path id="Vector"
+                  d="M19.633 2.57275C10.9025 2.5743 3.7997 9.49021 3.7997 17.991C3.7997 26.4917 10.9025 33.4076 19.6346 33.4076C28.3635 33.4076 35.4664 26.4917 35.4679 17.991C35.4679 9.49021 28.3651 2.5743 19.633 2.57275ZM19.6346 30.3243C12.6489 30.3243 6.96636 24.7913 6.96636 17.991C6.96636 11.1907 12.6489 5.65763 19.633 5.65609C26.6187 5.65763 32.3013 11.1907 32.3013 17.991C32.2997 24.7913 26.6171 30.3243 19.6346 30.3243Z"
+                  fill="#952323" />
+                <path id="Vector_2" d="M19.6346 16.449H13.3013V19.5323H19.6346V24.1665L25.9759 17.9922L19.6346 11.8193V16.449Z"
+                  fill="#952323" />
+              </g>
+            </svg>
+            <a href="modul/topik5.html">
+              B. Topik II
+            </a>
+          </button>
+          <button class="list-dropdown" onclick="toggleList('layanan-3')">
+            <svg width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="bx:right-arrow-circle">
+                <path id="Vector"
+                  d="M19.633 2.57275C10.9025 2.5743 3.7997 9.49021 3.7997 17.991C3.7997 26.4917 10.9025 33.4076 19.6346 33.4076C28.3635 33.4076 35.4664 26.4917 35.4679 17.991C35.4679 9.49021 28.3651 2.5743 19.633 2.57275ZM19.6346 30.3243C12.6489 30.3243 6.96636 24.7913 6.96636 17.991C6.96636 11.1907 12.6489 5.65763 19.633 5.65609C26.6187 5.65763 32.3013 11.1907 32.3013 17.991C32.2997 24.7913 26.6171 30.3243 19.6346 30.3243Z"
+                  fill="#952323" />
+                <path id="Vector_2" d="M19.6346 16.449H13.3013V19.5323H19.6346V24.1665L25.9759 17.9922L19.6346 11.8193V16.449Z"
+                  fill="#952323" />
+              </g>
+            </svg>
+            <a href="modul/topik6.html">
+              C. Topik III
+              </a>
+          </button>
+          <div class="dropdown-content" id="layanan-1">
+          </div>
+          <div class="dropdown-content" id="layanan-2">
+          </div>
+          <div class="dropdown-content" id="layanan-3">
+          </div>
+        </div>
+      </div>
+      <div id="6" class="btn-frame">
+        <button class="dropdown-button" onclick="toggleDropdown('daftar-pustaka')">
+          DAFTAR PUSTAKA
+        </button>
+
+        <div class="dropdown-content" id="daftar-pustaka">
+          <img class="content-frame" src="assets/48.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="td" style="text-align: right;">
+    <span id="ttd">
+        Anugrah Agustina, S.Pd
+    </span>
+</div>
+
+  </div>
+    <script src="main.js"></script>
+    <script src="/modul/topik1.js"></script>
+  </body>
+</html>
