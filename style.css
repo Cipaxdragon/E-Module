@@ -36,8 +36,8 @@ body {
 }
 #td{
   z-index: -2;
-  top: 551px;
-  left: 1050px;
+  top: 64%;
+  left: 40%;
   position: fixed;
   padding-right: 168px;
   margin-bottom: 30px;
