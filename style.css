@@ -174,7 +174,7 @@ h1 {
 .clicked-button {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%),
     #FF992A;
-  color: var(--bt-secondary);
+  color: white;
 }
 
 .list-dropdown a{
@@ -183,8 +183,12 @@ h1 {
   font-weight: 600;
 }
 
-p{
-  color: black;
+.baton{
+  display: inline-block;
+  margin: 0px 0px;
+}
+.baton:hover{
+  color: white;
   display: inline-block;
   margin: 0px 0px;
 }

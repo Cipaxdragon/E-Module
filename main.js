@@ -10,13 +10,17 @@ const buttonMap = {
 let activeButton = null;
 
 let buttons = document.querySelectorAll('.dropdown-button');
+var baton = document.querySelectorAll('.baton');
 
 buttons.forEach((button) => {
   button.addEventListener('click', (e) => {
       if (button.classList.contains('clicked-button')) {
           button.classList.remove('clicked-button');
+          
       } else {
-          button.classList.add('clicked-button');
+        
+        button.classList.add('clicked-button');
+          
       }
   });
 });
@@ -32,7 +36,6 @@ function toggleDropdown(buttonId) {
   const hapus_4 = document.getElementById('4');
   const hapus_5 = document.getElementById('5');
   const hapus_6 = document.getElementById('6');
-
 
   const dropdownContent = document.getElementById(buttonId.replace('button', 'content'));
 
