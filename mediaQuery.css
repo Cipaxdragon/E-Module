@@ -34,9 +34,9 @@
     
   }
   #td{
+    top: 64%;
     left: 28%;
     margin-bottom: 50px;
-    margin-top: 1px;
   }
   #ttd {
 
@@ -50,7 +50,7 @@
       padding-right: 10px;
       margin-bottom: 30px;
       transition: 0.3s ease;
-      margin-top: 10px;
+      margin-top: 2px;
     }
 }
 
