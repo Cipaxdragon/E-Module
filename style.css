@@ -35,6 +35,10 @@ body {
   gap: 1rem;
 }
 #td{
+  z-index: -2;
+  top: 551px;
+  left: 1050px;
+  position: fixed;
   padding-right: 168px;
   margin-bottom: 30px;
   transition: 0.3s ease;
@@ -46,7 +50,6 @@ body {
 }
 
 #ttd {
-  background-color: var(--button-primary);
   width: 28rem;
   height: 3rem;
   font-size: 1.8rem;
@@ -56,7 +59,6 @@ body {
   border-top: none;
   border-bottom: none;
   border-right: none;
-  border-left: 7px solid var(--bt-border);
   cursor: pointer;
   transition: var(--button-primary) 0.3s ease;
   font-family: sacramento;

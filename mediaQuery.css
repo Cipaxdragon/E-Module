@@ -34,12 +34,14 @@
     
   }
   #td{
+    top:610px;
+    left: 197px;
     margin-bottom: 50px;
     margin-top: 1px;
   }
   #ttd {
 
-    font-size: 1.3rem;
+    font-size: 1.1rem;
    
     }
     .header{
