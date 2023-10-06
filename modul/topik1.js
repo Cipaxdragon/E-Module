@@ -1,6 +1,6 @@
 const images = [];
 for (let i = 5; i <= 16; i++) {
-  images.push(`../assets/${i}.png`);
+  images.push(`../assets/${i}.jgp`);
 }
 
 let currentImageIndex = 0;
