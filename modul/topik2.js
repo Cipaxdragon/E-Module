@@ -1,6 +1,6 @@
 const images = [];
 for (let i = 17; i <= 24; i++) {
-  images.push(`../assets/${i}.png`);
+  images.push(`../assets/${i}.jpg`);
 }
 let currentImageIndex = 0;
 
@@ -9,17 +9,17 @@ const prevButton = document.getElementById("prev-button");
 const nextButton = document.getElementById("next-button");
 
 function updateGalleryImage() {
-    galleryImage.src = images[currentImageIndex];
+  galleryImage.src = images[currentImageIndex];
 }
 
 prevButton.addEventListener("click", () => {
-    currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
-    updateGalleryImage();
+  currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+  updateGalleryImage();
 });
 
 nextButton.addEventListener("click", () => {
-    currentImageIndex = (currentImageIndex + 1) % images.length;
-    updateGalleryImage();
+  currentImageIndex = (currentImageIndex + 1) % images.length;
+  updateGalleryImage();
 });
 
 updateGalleryImage();
