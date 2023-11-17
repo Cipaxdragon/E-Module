@@ -1,5 +1,5 @@
 const images = [];
-for (let i = 25; i <= 49; i++) {
+for (let i = 25; i <= 53; i++) {
   images.push(`../assets/${i}.jpg`);
 }
 let currentImageIndex = 0;
